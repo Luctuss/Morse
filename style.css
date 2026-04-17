@@ -6,3 +6,6 @@ body {
     resize: both; 
 }
 
+#champ-mail {
+    resize:horizontal
+}
