@@ -20,6 +20,54 @@ button {
     resize: none;
 }
 
+
+#champ-latin {
+    font-size: 20px;
+    height: 240px;
+    width: 660px;
+    max-height: 240px;
+    max-width: 660px;
+
+    resize: none
+    
+
+}
+
+#champ-morse {
+    font-size: 20px;
+    height: 240px;
+    width: 660px;
+    max-height: 240px;
+    max-width: 660px;
+    resize: none
+}
+
+#fleches {
+    font-size: 120px;
+    margin-top: -20px;
+
+}
+
+#morse-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#boutons-morse {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#boutons-morse button {
+  font-size: 20px;
+  padding: 10px 16px;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;

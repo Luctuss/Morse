@@ -7,8 +7,21 @@
 
 <body>
     
-    <input type="text" id="champ-latin" placeholder="Entrez votre phrase">
+<div id="morse-container">
+  <textarea id="champ-latin" placeholder="Entrez votre texte ici"></textarea> 
 
-    <h1></h1>
-    <input type="text" id="champ-morse" placeholder="Entrez votre code morse">
+
+<div id="fleches">
+  <span>→</span><br>
+  <span>←</span>
+</div>
+
+  <textarea id="champ-morse" placeholder="Entrez votre code morse ici"></textarea>
+  <div id="boutons-morse">
+    <button onclick="ajouterSymbole('.')">.</button>
+    <button onclick="ajouterSymbole('-')">-</button>
+    <button onclick="ajouterSymbole('/')">/</button>
+  </div>
+</div>
+
 </body>
