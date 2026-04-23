@@ -55,11 +55,22 @@ button {
 }
 
 #boutons-morse {
-  margin-top: 35px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
+#bouton-trad-morse {
+width: 150px;
+}
+
+#bouton-trad-latin {
+width: 150px;
+}
+
+
+
 
 #bouton-trad {
 width: 100px;
