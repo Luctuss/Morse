@@ -42,7 +42,7 @@ function TextToMorse(){
   document.getElementById('champ-latin').value = result;
 }
 
-function traduire() {
+function TraduireVersMorse() {
   const texte = document.getElementById('champ-latin').value.toUpperCase();
   const morse = {
     A:'.-', B:'-...', C:'-.-.', D:'-..', E:'.', F:'..-.', G:'--.', H:'....',
@@ -61,7 +61,7 @@ function traduire() {
   document.getElementById('champ-morse').value = resultat;
 }
 
-function traduireInverse() {
+function TraduireVersLatin() {
   const morseTexte = document.getElementById('champ-morse').value.trim();
   const morse = {
     '.-':'A', '-...':'B', '-.-.':'C', '-..':'D', '.':'E', '..-.':'F', '--.':'G',
