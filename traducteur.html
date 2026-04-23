@@ -3,6 +3,7 @@
     <title>Traducteur</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,12 +17,11 @@
   <span>←</span>
 </div>
 
-  <textarea id="champ-morse" placeholder="Entrez votre code morse ici"></textarea>
-  <div id="boutons-morse">
-    <button onclick="ajouterSymbole('.')">.</button>
-    <button onclick="ajouterSymbole('-')">-</button>
-    <button onclick="ajouterSymbole('/')">/</button>
-  </div>
-</div>
 
-</body>
+<textarea id="champ-morse" placeholder="Entrez votre code morse ici" background-color="lightgray"></textarea>
+
+<div class="boutons" id="boutons-morse">
+<button onclick="insertMorse('.')">.</button>
+<button onclick="insertMorse('-')">-</button>
+<button onclick="insertMorse(' / ')">/</button>
+</div>
