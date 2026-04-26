@@ -210,4 +210,100 @@ h1 {
   color: #d0c0b0;
   text-align: right;
   margin-top: 4px;
+} 
+
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    background: linear-gradient(to right, #bfa89b, #593e42);
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.boite-titre {
+    border: 2px solid black;
+    padding: 10px 30px;
+    display: inline-block; 
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 26px;
+}
+
+header p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.ovale-gris {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color: #b5b5b5;
+    border-radius: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.lien-createurs {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    text-align: right;
+    width: 250px;
+}
+
+.ovale-gris-petit {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background-color: #b5b5b5;
+    border-radius: 50px;
 }
