@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clé Morse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <div class="header-line"></div>
+      <h1 class="titre-morse">CLÉ MORSE</h1>
+      <div class="header-line"></div>
+    </header>
+
+    <div class="lamp-container">
+      <div class="lamp" id="lamp"></div>
+      <div class="lamp-glow" id="lampGlow"></div>
+    </div>
+
+    <div class="key-area">
+      <button class="telegraph-key" id="telegraphKey">CLÉ</button>
+      <div class="key-hint">Appui court = &middot; &nbsp;&nbsp; Appui long = &minus;</div>
+    </div>
+
+    <div class="morse-panel">
+      <div class="panel-label">MORSE SAISI</div>
+      <div class="morse-output" id="manualMorse">&mdash;</div>
+      <div class="morse-actions">
+        <button id="addLetterBtn">/ LETTRE</button>
+        <button id="addWordBtn">___ MOT</button>
+        <button id="clearBtn">&#x2715; EFFACER</button>
+      </div>
+    </div>
+
+    <div class="morse-panel">
+      <div class="panel-label">DÉCODAGE</div>
+      <div class="decoded-output" id="decoded">&mdash;</div>
+    </div>
+
+    <div class="morse-panel">
+      <div class="panel-label">TABLE DE RÉFÉRENCE</div>
+      <div class="ref-grid" id="refGrid"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
